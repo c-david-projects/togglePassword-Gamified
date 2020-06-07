@@ -3,9 +3,9 @@ function togglePassword() {
     var image = document.getElementById('myImage');
     if (x.type === "password") {
       x.type = "text";  
-      image.src = "img1.png";  
+      image.src = "img2.png";  
     } else {
       x.type = "password";
-      image.src = "img2.png";
+      image.src = "img1.png";
     }
   }
